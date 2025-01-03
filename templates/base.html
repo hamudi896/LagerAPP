@@ -9,6 +9,9 @@
         body {
             background-color: #f4f7fb; /* Sanftes Grau als Hintergrund */
             color: #333; /* Dunkle Schrift für bessere Lesbarkeit */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         .navbar {
@@ -29,6 +32,7 @@
             border-radius: 8px;
             padding: 20px;
             margin-top: 20px;
+            flex: 1; /* Füllt den verfügbaren Platz */
         }
 
         .btn-primary {
@@ -93,9 +97,7 @@
             color: white;
             text-align: center;
             padding: 10px;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+            margin-top: auto;
         }
     </style>
 </head>
